@@ -27,8 +27,8 @@ tfinal = 10;
 dt = 10^(-5);
 tsteps = tfinal/dt + 1;
 R = createR(dl,n); %creates radius vector, m
-W = (4/3).*pi.*(R^3)*(pmetal-pfluid)*g; %net weight of each sphere vector
-m = (4/3)*pi*(R^3)*pmetal; %mass of each sphere vector, kg
+W = (4/3).*pi.*(R.^3)*(pmetal-pfluid)*g; %net weight of each sphere vector
+m = (4/3)*pi*(R.^3)*pmetal; %mass of each sphere vector, kg
 %preallocating
 qkx = zeros(n,1); %x-positions of balls at tk
 qky = zeros(n,1); %y-positions of balls at tk
