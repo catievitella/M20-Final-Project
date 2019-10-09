@@ -5,7 +5,7 @@
 
 
 clc; clear all;
-n = 3;
+n = 27;
 
 [timplicit, yimplicit, vimplicit] = part3implicit(n);
 

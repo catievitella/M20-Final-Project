@@ -1,8 +1,8 @@
 function [t,ymid,vmid] = part3implicit(n)
 
-clc; clear all;
+clc; 
 %initialize
-n = 21; %number of nodes
+%n = 21; %number of nodes
 if mod(n,2) == 0
     error ('Must be an odd number of nodes'); 
 end
