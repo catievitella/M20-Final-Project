@@ -2,7 +2,6 @@
 
 %% M20 Final Project Problem 3
 %Catie Vitella
-%UID: 805017652
 
 %Plots the positions and velocities of three balls attached to an elastic
 %beam falling in viscous fluid using explicit and implicit methods
